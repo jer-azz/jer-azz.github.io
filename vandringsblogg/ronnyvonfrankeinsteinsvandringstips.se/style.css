@@ -1,0 +1,145 @@
+
+        
+        /* Premium Theme Sheer from Blogg.se */
+@import url("../static.blogg.se/themes/sheer/css/style.css");
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+
+#content .mini-cat, #content h3, #content .kommentera, #menu a, #side h4, #menu h2, #side h4, .response-by, #heading h1, #heading h2, #side h4, #side h5 { 
+	text-transform: uppercase;
+}
+
+input[placeholder] { 
+	color: rgba(255,255,255,1);
+	font-family: "Nixie One", cursive;
+	text-overflow: ellipsis;
+	opacity: 1;
+}
+input::-moz-placeholder { 
+	color: rgba(255,255,255,1);
+	font-family: "Nixie One", cursive;
+	text-overflow: ellipsis;
+	opacity: 1;
+} 
+input::-webkit-input-placeholder { 
+	color: rgba(255,255,255,1);
+	font-family: "Nixie One", cursive;
+	text-overflow: ellipsis;
+	opacity: 1;
+}
+input:-ms-input-placeholder { 
+	color: rgba(255,255,255,1);
+	font-family: "Nixie One", cursive;
+	text-overflow: ellipsis;
+	opacity: 1;
+}
+
+#heading h1, #content h3 { font-family: "Nixie One", cursive; }
+
+#side #search form input[type="submit"], #back-top a, #content .share-button label, #content .kommentera, #content .kommentera:hover, #content .commentform input, #content .commentform textarea, #content .commentform .formbutton, #nav a { 
+	color: rgba(255,255,255,1); 
+}
+
+#nav .cat a, #nav .links a  { background-color: rgba(0,0,0,1); }
+#nav .arch a { background-color: rgba(0,0,0,0.6); }
+#content .entry, #content .comment { border-bottom: 1px solid rgba(0,0,0,0.6); }
+
+#heading { display: inherit; }
+
+#content h3 { font-size: 32px; }
+
+a, a:hover, body, #menu a {
+	color: rgba(51,51,51,1);
+}
+
+#header #social .social-icons svg, #sidr-btn {
+	background-color: rgba(0,0,0,1);
+}
+
+#sidr-btn { z-index: 9999; }
+
+.sidr input[type=button],.sidr input[type=submit], .sidr h1,.sidr h2,.sidr h3,.sidr h4,.sidr h5,.sidr h6, .sidr input[type="text"],.sidr input[type="password"],.sidr input[type="date"],.sidr input[type="datetime"],.sidr input[type="email"],.sidr input[type="number"],.sidr input[type="search"],.sidr input[type="tel"],.sidr input[type="time"],.sidr input[type="url"],.sidr textarea,.sidr select {
+    background: rgba(51,51,51,0.1);
+}
+
+.sidr input[type=button]:hover,.sidr input[type=submit]:hover {
+    background: rgba(51,51,51,0.3);
+}
+
+.sidr, .sidr ul li a, .sidr ul li span, .sidr input[type=button],.sidr input[type=submit], .sidr h1,.sidr h2,.sidr h3,.sidr h4,.sidr h4 a,.sidr h5,.sidr h6, .sidr input[type="text"],.sidr input[type="password"],.sidr input[type="date"],.sidr input[type="datetime"],.sidr input[type="email"],.sidr input[type="number"],.sidr input[type="search"],.sidr input[type="tel"],.sidr input[type="time"],.sidr input[type="url"],.sidr textarea,.sidr select {
+	color: rgba(255,255,255,1);
+}
+.sidr ul li { border-bottom: 1px solid rgba(255,255,255,0.2); }
+.sidr ul li:hover>a,.sidr ul li:hover>span,.sidr ul li.active>a,.sidr ul li.active>span,.sidr ul li.sidr-class-active>a,.sidr ul li.sidr-class-active>span {
+	box-shadow: inset 0 0 15px 3px rgba(255,255,255,0.2);
+}
+.post a { color: rgba(0,0,0,1); }
+#side #search form, #back-top a, #content .kommentera, #content .commentform input, #content .commentform textarea, #content .commentform .formbutton, .sidr, #content .share-button label { background-color: rgba(0,0,0,1); }
+
+body, #menu p, input, textarea {
+	font-size: 15px;
+}
+
+body, input, textarea {
+	font-family: "Oxygen", sans-serif;
+}
+
+.kommentera { font-size: 1.2em; }
+
+.entry, #side section, #menu, #back-top, #content .comment, #content .commentform { background-color: rgba(255,255,255,1); }
+.profile-img { border: 4px solid rgba(255,255,255,1); }
+
+#header #social .social-icons svg, #sidr-btn svg { fill: rgba(255,255,255,1); }
+
+#menu .big, #header .social-icons svg, input, #archives, #archives a, #comment-author, #comment-email, #comment-url, #comment-content, .formbutton {
+	color: rgba(0,0,0,1);
+	fill: rgba(0,0,0,1);
+}
+
+#heading h1 a, #heading h2 { color: rgba(255,255,255,1); }
+#heading { background-color: rgba(0,0,0,1); }
+
+body {
+	background-color: #f5f5f5;
+	background-image: url(../cdn2.cdnme.se/3989481/7-3/31_540a1f309606ee7cfc918c2b.jpg);
+}
+
+#side #posts .post-image, .morebutton a {
+	background-color: #f5f5f5;
+}
+
+#search form { background-color: #f5f5f5; }
+
+#heading h1 {
+	font-size: 66px;
+	line-height: 1em;
+}
+
+.response-by, #heading h2 {
+	font-size: 14px;
+}
+
+.header { background-image: url(../cdn1.cdnme.se/3989481/7-3/img_5592_540a1f442a6b2263565eae21.jpg); }
+
+#content, #header { width: 1000px; }
+
+#content .meta { font-size: 13px; }
+
+.like-container .likebtn { margin-right: 0; }
+.like-container .likebtn .likebtn__btn { 
+  background: rgba(0,0,0,1) !important; 
+  border: 0 none !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  text-shadow: none !important;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 5px 10px;
+}
+.like-container .likebtn.clicked .likebtn__btn { 
+  color: rgba(0,0,0,1) !important; 
+  background: white !important;
+}
+
+.share-button { display: inline-block !important; }
